@@ -1,0 +1,121 @@
+body {
+  background: transparent;
+}
+
+#border {
+  position: fixed;
+  z-index: 2;
+}
+
+#light {
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 80px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 80px 80px rgba(238, 249, 255, 0.4),
+    0 0 80px 100px rgba(255, 253, 225, 0.8);
+  transform: skewX(-40deg) translateX(150px) translateY(40px);
+  opacity: 0;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+#img1 {
+  transform: scaleX(0), scaleY(100);
+  transform-origin: left;
+  position: fixed;
+}
+
+#img2 {
+  position: fixed;
+  left: 0;
+  transform: scaleY(0) translateY(0);
+  opacity: 0;
+}
+
+#bubble1 {
+  position: fixed;
+  left: 40px;
+  top: 90px;
+  z-index: 1;
+  transform: scaleX(0px), scaleY(0px);
+  opacity: 0;
+}
+
+#bubble2 {
+  position: fixed;
+  left: 180px;
+  top: 180px;
+  z-index: 1;
+  transform: scaleX(0px), scaleY(0px);
+  opacity: 0;
+}
+
+#bubble3 {
+  position: fixed;
+  left: 110px;
+  top: 200px;
+  z-index: 1;
+  transform: scaleX(0px), scaleY(0px);
+  opacity: 0;
+}
+
+#bubble4 {
+  position: fixed;
+  left: 170px;
+  top: 230px;
+  z-index: 1;
+  transform: scaleX(0px), scaleY(0px);
+  opacity: 0;
+}
+
+#f3_copy1 {
+  z-index: -1;
+  position: fixed;
+  transform: translateX(0px) translateY(-100px) scaleX(1);
+  transform-origin: right;
+  opacity: 0;
+}
+
+#f3_copy2 {
+  z-index: -1;
+  position: fixed;
+  transform: translateX(0px) translateY(-65px) scaleX(1);
+  transform-origin: right;
+  opacity: 0;
+}
+
+#img3 {
+  left: 0;
+  position: fixed;
+  transform: translateX(0px) translateY(30px) scale(0);
+  opacity: 0;
+}
+
+#f4_copy1 {
+  z-index: -1;
+  position: fixed;
+  transform: translateX(0px) translateY(-97px) scaleX(1);
+  transform-origin: right;
+  opacity: 0;
+}
+
+#f4_copy2 {
+  z-index: -1;
+  position: fixed;
+  transform: translateX(130px) translateY(18px) scaleX(1);
+  transform-origin: right;
+  opacity: 0;
+}
+
+#cta {
+  position: fixed;
+  transform: translateX(-17px) translateY(220px) scaleX(1) scaleY(0);
+  transform-origin: bottom;
+  opacity: 0;
+  z-index: 2;
+}
